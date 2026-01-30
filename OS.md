@@ -10,6 +10,30 @@ crontab -l -u [user] This command will display/list user’s crontab contents
 crontab -r -u [user] This Command will remove user’s crontab contents
 crontab -e -u [user] This command will edit user’s crontab contents
 
+USEFUL LINUX COMMANDS
+/etc/inittab (DEFAULT RUN LEVELS/RUN LEVELS)
+ss -tna (open ports and connections)
+sudo lsof -i :<PORT> (gives you PID)
+ps -u -p <PORT> (gives you user that its running from)
+ps -ef | grep 1974 (gives you the pid)
+
+SYSTEMD
+systemctl status
+systemctl list-units --type=service --all | grep -R "<>"
+SYSV
+service <name> status
+.bash_logout
+.bashrc
+grep -R "" /
+
+
+
+
+
+
+
+
+
 
 
 FINDING SIDS
@@ -29,7 +53,8 @@ Get-Childitem -Force (View hidden directorys)
 
 
 SysInternals Tips
-
+TaskManager 
+Autoruns
 
 
 
